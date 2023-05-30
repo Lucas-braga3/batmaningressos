@@ -1,0 +1,290 @@
+
+
+
+*{padding: 0
+;
+margin: 0;
+font-family: font-family:  open sans,Helvetica Neue,Helvetica,Arial,sans-serif;;}
+
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+    
+    
+    
+    
+    
+
+}
+#linha{border-top: 10px; color: #fff;}
+
+
+nav{width: 60%;}
+
+ul{display: flex;
+width: 100%;
+justify-content: space-between;}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+    font-family:Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+li:hover{color: #d21617;}
+#logo{width: 150px;
+height: 90px;}
+
+.container{
+   width: 100%;
+   background-color: black;
+   display: flex;
+   flex-direction:row;
+  
+}
+
+.titulo{
+    font-family: open sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-left: 35%;
+    align-items: center;
+    color: white;
+    width: 30%;
+    font-size: 35px;
+padding-top: 40px;
+    
+
+}
+
+#paragrafo{
+    color: white;
+    height: 60px;
+    padding-left: 35%;
+    width: 30%;
+    height: 180px;
+    padding-top: 50px;
+    font-size: 25px;
+   
+}
+
+
+
+
+   
+
+
+
+    
+    
+    
+   
+    
+
+.tesss{
+    width: 80%;
+    padding-left: 0px;
+    font-family: open sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    height: 30px;
+    margin-left: 0px;
+}
+
+
+.tes{
+    width: 80%;
+    padding-left: 0px;
+    font-family: open sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    height: 30px;
+    margin-left: 0px;
+    
+}
+.tess{
+    width: 80%;
+    padding-left: 0px;
+    font-family: open sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    height: 30px;
+    margin-left: 0px;
+}
+
+.burro{width: 80%;
+    padding-left: 0px;
+    font-family: open sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    height: 30px;
+    margin-left: 0px;
+}
+
+
+
+    
+    
+    
+
+#teste{
+    margin-left: 50px;
+    font-family:  open sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    
+
+}
+
+#testei{
+    padding-left: 50px;
+    width: 10px;
+}
+
+#testee{
+    padding-left: 50px;
+}
+
+#testeee{
+    padding-left: 50px;
+    width: 40%;
+}
+#testeeee{
+    padding-left: 50px ;
+}
+
+#texto{
+    padding-left: 0px;
+   margin-left: 25%;
+   width: 50%;
+   background-color: #fff;
+   
+
+}
+
+#louco{
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    color:#fff;
+    background-color: black;
+
+    
+}
+
+.olha{
+  margin-left: 30px;
+}
+#loucoo{
+    padding-top: 20px;
+    width: 40%;
+    margin-left: 0%;
+    border: 5px solid #fff 
+}
+   #lerdo{
+    width: 450px;
+   }
+   .legal{
+    width: 500px;
+   }
+
+   #bacana{
+    padding-left: 50px ;
+
+   }
+
+   #haha{
+    background-color: black;
+    border: 5px solid #fff 
+    ;
+    padding-top: 20px;
+   
+   }
+
+   footer{
+    height: 300px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+span{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.footer-navigation{
+    display: none;
+    
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#media{
+    display: none;
+}
+
+@media(max-width: 768px){
+
+    #loucura{
+        display: none
+    }
+
+.titulo{
+    width: 100%;
+  padding-left: 15%;
+    border-bottom: 5px solid #fff;
+}
+
+#paragrafo{
+    width: 90%;
+    padding-left:28px ;
+}
+
+#haha{
+    width: 100%;
+    padding-top: 20px;
+}
+
+#lerdo{
+    width: 80%;
+}
+
+.legal{
+    width: 80%;
+}
+
+.texto{
+    width:80%
+}
+
+
+#media{
+    display: flex;
+}
+
+#ksks{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+    font-family:Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+#ksks:hover{color: #d21617;}
+#logo{width: 150px;
+height: 90px;}
+.footer-navigation{
+    display: none;
+    
+}
+
+}
+
+
+
+
+

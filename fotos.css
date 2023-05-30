@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color: black;
+    
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.lbox {
+    visibility: hidden;
+    opacity: 0;
+}
+ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    margin: 100px ;
+    margin-top: 90px;
+}
+.min {
+    width: 300px;
+    padding: 00px;
+}
+.lbox:target {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    background-color: red (10,10,10,0.7);
+}
+.box-img {
+    width: 1000px;
+    
+}
+.btn {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+#prev {
+    left: 5%;
+    top: 45%;
+}
+#next {
+    right: 5%;
+    top: 45%;
+}
+#close {
+    top: 0;
+    right: 2px;
+}
+.box-img img {
+    opacity: 0;
+}
+
+.lbox:target .box-img img {
+    opacity: 1;
+    transition: opacity 250ms linear;    
+}
+
+
+#topo{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+   
+ 
+
+}
+
+
+
+
+nav{width: 60%;
+}
+
+header{
+    
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        margin: 0;
+        
+}
+
+
+#loucura{
+    display: none;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+    font-family:Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+li:hover{color: #d21617;}
+
+#logo{width: 150px;
+height: 90px;
+margin-left: 0px;}
+
+#copy{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  margin-left: 0px;
+}
+
+#haha{
+    background-color: black;
+    padding-top: 0px;
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+span{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.footer-navigation{
+    display: none;
+    
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bobo{
+    width: 100%;
+    background-color:black;
+    color: white;
+    align-items: center;
+    padding-left: 400px;
+    
+}
+
+#aiai{
+    display: none;
+}
+@media(max-width: 768px) {
+    header{
+        padding-left: 40px;
+    }
+        #navheader{
+            display: none;
+        }
+        .bobo{
+            width: 100%;
+            padding-left: 50px;
+            font-size: large;
+            border-top: 5px solid #fff;
+          align-items: center;
+          padding-top: 60px;
+        }
+    
+       #loucura{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+       }
+
+    
+       
+        #ul1{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 50px;
+            
+        }
+    
+        #ul2{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 50px
+        }
+            
+        
+        
+        
+        li{
+            list-style: none;
+            color: aliceblue;
+            cursor: pointer;
+            transition: .5s;
+            font-family:Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+        }
+        
+        li:hover{color: #d21617;}
+        
+        #logo{width: 150px;
+        height: 90px;}
+        
+        
+    
+     
+        .span{margin-left: 0px;
+
+        }
+   nav{width:60%;
+padding-left: 0px;}
+
+#copyy{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  margin-left: 0px;
+}
+
+#aiai{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    margin-left: 25%;
+
+}
+
+}
+
+   

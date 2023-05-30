@@ -1,0 +1,172 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+background-color: black;
+}
+
+
+nav{width: 60%;}
+
+ul{display: flex;
+width: 100%;
+justify-content: space-between;}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+    font-family:Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+li:hover{color: #d21617;}
+#logo{width: 150px;
+height: 90px;}
+
+
+
+#container2{
+    
+    color: #fff;
+    margin-left: 0;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    background-color:black;
+    
+}
+
+
+
+.titulo{
+ padding-top: 30px;
+   padding-left: 350PX;
+ color: #fff;
+   background-color:black;
+}
+  #div{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: black;
+        
+    }
+    
+    #solitario{
+        background-color:black;
+    }
+   
+    
+
+    #print1{
+        width: 50%;
+        height: 250px;
+        padding-left: 300px;
+        padding-right: 10px;
+    }
+
+    #print2{
+        height: 250px;
+        width: 50%;
+       padding-right: 20px;
+       padding-left: 300px;
+    }
+
+    #print3{
+       height: 250px;
+       width: 50%;
+       padding-left: 300px;
+       padding-bottom: 0;
+       background-color: black;
+    }
+
+    span{
+        color: #fff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+                
+footer{height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+    
+
+    #logo{width: 150px;
+        height: 90px;}
+        #media{
+            display: none;
+        }
+
+        @media(max-width: 768px){
+
+            #navfooter{
+                display: none;
+            }
+            .titulo{
+                padding-left: 30px;
+               font-size: large;
+               border-top: 5px solid #fff;
+        }
+
+#div{
+    flex-direction: column;
+    height: 500px;
+}
+#print1{
+    padding-left: 25px;
+    width: 80%;
+
+}
+
+#print2{
+    padding-top: 20px;
+    padding-left: 25px;
+    width: 80%;
+}
+
+#print3{
+    padding-left: 25px;
+    width: 80%;
+    padding-top: 20px;
+}
+#media{
+    width: 60%;
+    display: flex;
+}
+
+
+#ksks{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+    font-family:Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+#ksks:hover{color: #d21617;}
+#logo{width: 150px;
+height: 90px;}
+
+#chatice{
+    height: 40px;
+    background-color: black;
+}
